@@ -105,8 +105,9 @@ let fibo=[0, 1];
  console.log(fibo);
 
 
- 
+
  //Fibonaccy Recursion using by function:
+ //let's try to find out index of any elemnt of fibonaccy
      
 function fibo(i){
     if(i ==0){
