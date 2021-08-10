@@ -65,4 +65,16 @@ for(i=6; i>=1; i--){
 }
 console.log(factorial);
 
-// recursion factorial using by function
+
+
+//// recursion factorial using by function
+
+function factorial(i){
+
+    if (i == 1) {
+    
+        return 1;
+    }
+        return i*factorial(i-1);
+    }
+    console.log(factorial(6));
